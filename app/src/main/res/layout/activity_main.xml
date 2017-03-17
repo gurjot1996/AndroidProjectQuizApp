@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:src="@drawable/omni"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:hint="@string/edittext"
+            style="@style/editfields"
+            android:id="@+id/namefield"
+            android:inputType="textCapCharacters"
+            />
+
+        <TextView
+            style="@style/lineseparation" />
+
+        <TextView
+            style="@style/questionheading"
+            android:text="Question 1"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question1"
+            android:layout_marginBottom="15dp"
+            />
+
+        <RadioGroup
+            style="@style/questions">
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/USA"
+                android:id="@+id/q1op1"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/Russia"
+                android:id="@+id/q1op2"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/India"
+                android:id="@+id/q1op3"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/Australia"
+                android:id="@+id/q1op4"/>
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/lineseparation" />
+
+
+        <TextView
+            style="@style/questionheading"
+            android:text="Question 2"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question2"
+            android:layout_marginBottom="15dp"
+            />
+
+        <RadioGroup
+            style="@style/questions">
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/five"
+                android:id="@+id/q2op1"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/four"
+                android:id="@+id/q2op2"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/six"
+                android:id="@+id/q2op3"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/seven"
+                android:id="@+id/q2op4"/>
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/lineseparation" />
+
+        <TextView
+            style="@style/questionheading"
+            android:text="Question 3"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question3"
+            android:layout_marginBottom="15dp"
+            />
+
+        <RadioGroup
+            style="@style/questions">
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/threehund"
+                android:id="@+id/q3op1"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/onehund"
+                android:id="@+id/q3op2"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/fourhund"
+                android:id="@+id/q3op3"/>
+            <RadioButton
+                style="@style/questions"
+                android:text="@string/fivehund"
+                android:id="@+id/q3op4"/>
+        </RadioGroup>
+
+        <TextView
+            style="@style/lineseparation" />
+
+        <TextView
+            style="@style/questionheading"
+            android:text="Question 4"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question4"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+            style="@style/Notice"
+            android:text="@string/Notice"/>
+
+        <CheckBox
+            style="@style/Checkboxes"
+            android:text="@string/Pyramid" android:id="@+id/q4op1"
+            />
+        <CheckBox
+            style="@style/Checkboxes"
+            android:text="@string/Tajmahal" android:id="@+id/q4op2"/>
+        <CheckBox
+            style="@style/Checkboxes"
+            android:text="@string/Qutub" android:id="@+id/q4op3"/>
+        <CheckBox
+            style="@style/Checkboxes"
+            android:text="@string/EiffelTower" android:id="@+id/q4op4"/>
+
+        <TextView
+            style="@style/lineseparation" />
+
+        <TextView
+            style="@style/questionheading"
+            android:text="Question 5"/>
+
+        <TextView
+            style="@style/questions"
+            android:text="@string/question5"
+            android:layout_marginBottom="15dp"
+            />
+
+        <TextView
+            style="@style/Notice"
+            android:text="@string/Notice2"/>
+        <EditText
+            style="@style/editfields"
+            android:hint="@string/edittext2"
+            android:id="@+id/textanswer"/>
+
+        <TextView
+            style="@style/lineseparation" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End test"
+            android:onClick="result"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            style="@style/lineseparation" />
+
+        <TextView
+            style="@style/questionheading"
+            android:textColor="#3F51B5"
+            android:text="Test Results are :"/>
+        <TextView
+            style="@style/questions"
+            android:id="@+id/testresult"/>
+    </LinearLayout>
+</ScrollView>

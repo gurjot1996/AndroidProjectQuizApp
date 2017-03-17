@@ -1,0 +1,33 @@
+<resources>
+    <string name="edittext">Enter your name here</string>
+    <string name="app_name">Quiz -7 Wonders of the World</string>
+
+    <string name="question1">Taj Mahal is in which country ?</string>
+    <string name="USA">USA</string>
+    <string name="Russia">Russia</string>
+    <string name="India">India</string>
+    <string name="Australia">Australia</string>
+
+    <string name="question2">How many wonders are there in world ?</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="seven">seven</string>
+
+    <string name="question3">What is height of the Eiffel Tower ?</string>
+    <string name="threehund">300m</string>
+    <string name="onehund">100m</string>
+    <string name="fourhund">400m</string>
+    <string name="fivehund">500m</string>
+
+    <string name="question4">Choose the wonders of the world from given options?</string>
+    <string name="Notice">This question has more than one correct answer</string>
+    <string name="Pyramid">Great Pyramid of Giza</string>
+    <string name="Tajmahal">Taj Mahal</string>
+    <string name="Qutub">Qutub Minar</string>
+    <string name="EiffelTower">Eiffel Tower</string>
+
+    <string name="question5">The Great Pyramid of Giza is in which country ?</string>
+    <string name="Notice2">The answer to this question has to be written in the given text field</string>
+    <string name="edittext2">enter your answer here HINT:The land of Mummies </string>
+</resources>
